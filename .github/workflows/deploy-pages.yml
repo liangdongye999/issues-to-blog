@@ -2,7 +2,7 @@ name: Deploy Pages
 
 on:
   issues:
-    types: [opened, edited]
+    types: [opened, edited, deleted]
 
 jobs:
   deploy:
