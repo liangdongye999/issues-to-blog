@@ -3,6 +3,7 @@ name: Deploy Pages
 on:
   issues:
     types: [opened, edited, deleted]
+  workflow_dispatch:
 
 jobs:
   deploy:
